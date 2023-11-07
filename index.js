@@ -97,15 +97,15 @@ let client1 = {
             "spouse": null
           }
 
-          console.log(client1);
-          console.log(client2);
+          // console.log(client1);
+          // console.log(client2);
 
           //ma variable tous_les_clients regroupe mes 2 variables précédentes client1 et client2
           let tous_les_clients = {
             "client1" : client1,
             "client2" : client2
           }
-console.log(tous_les_clients);
+// console.log(tous_les_clients);
 
 let output = document.getElementById("output")
 output.innerHTML = tous_les_clients.client1.last_name + "</br>" + tous_les_clients.client2.last_name
